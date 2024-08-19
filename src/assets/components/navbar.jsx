@@ -12,9 +12,8 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md">
       <div className="flex justify-between items-center px-4 py-2 m-2">
-        <span className="w-10 h-10">
-          <img src={""} alt="logo" />
-        </span>
+          <p className="flex">Ruth Afi Agbozo</p>
+       
         <div className="hidden md:flex gap-x-5 items-center">
           {K.NAVLINKS.map((item, index) => (
             <Link
@@ -66,9 +65,7 @@ const Navbar = () => {
           <button
             type="submit"
             className="border border-[#10CC9F] px-4 py-2 rounded text-white bg-[#10CC9F] hover:bg-[#0B8F71] transition-colors"
-          >
-            Download CV
-          </button>
+          >Download CV</button>
         </div>
       )}
     </nav>

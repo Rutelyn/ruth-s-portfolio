@@ -1,6 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import RootLayout from "./assets/layouts/rootLayout"
 import LandingPage from "./assets/pages/landingPage"
+import Projects from "./assets/pages/projects"
+import About from "./assets/pages/about"
+import Skills from "./assets/pages/skills"
+import Achievements from "./assets/pages/achievements"
 
 const router = createBrowserRouter(
   [
@@ -12,21 +16,22 @@ const router = createBrowserRouter(
         element: <LandingPage/>
       },
       {
-        index: true,
-        element: <LandingPage/>
+        path: "about",
+        element: <About/>
       },
       {
-        index: true,
-        element: <LandingPage/>
+        path: "projects",
+        element: <Projects/>
       },
       {
-        index: true,
-        element: <LandingPage/>
+        path: "skills",
+        element: <Skills/>
       },
       {
-        index: true,
-        element: <LandingPage/>
+        path: "Achievements",
+        element: <Achievements/>
       },
+      
     ]
   }
 

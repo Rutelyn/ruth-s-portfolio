@@ -15,8 +15,8 @@ const K = {
             path: "/projects"
         },
         {
-            name: "Services",
-            path: "/services"
+            name: "Skills",
+            path: "/skills"
         },
         
         {
