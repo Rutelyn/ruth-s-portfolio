@@ -1,10 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import RootLayout from "./assets/layouts/rootLayout"
-import LandingPage from "./assets/pages/landingPage"
-import Projects from "./assets/pages/projects"
-import About from "./assets/pages/about"
-import Skills from "./assets/pages/skills"
-import Achievements from "./assets/pages/achievements"
+import RootLayout from "./layouts/rootLayout"
+import LandingPage from "./pages/landingPage"
+import Projects from "./pages/projects"
+import Skills from "./pages/skills"
+
 
 const router = createBrowserRouter(
   [
@@ -16,20 +15,12 @@ const router = createBrowserRouter(
         element: <LandingPage/>
       },
       {
-        path: "about",
-        element: <About/>
-      },
-      {
         path: "projects",
         element: <Projects/>
       },
       {
         path: "skills",
         element: <Skills/>
-      },
-      {
-        path: "Achievements",
-        element: <Achievements/>
       },
       
     ]

@@ -7,10 +7,6 @@ const K = {
             path: "/"
         },
         {
-            name: "About",
-            path: "/about"
-        },
-        {
             name: "Projects",
             path: "/projects"
         },
@@ -19,10 +15,7 @@ const K = {
             path: "/skills"
         },
         
-        {
-            name: "Achievments",
-            path: "/achievements"
-        },
+       
         
        
     ],

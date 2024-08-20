@@ -1,4 +1,4 @@
-import ruth from "../images/ruth.jpeg"
+import ruth from "../assets/images/ruth.jpeg"
 import Projects from "./projects";
 
 
