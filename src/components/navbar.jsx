@@ -24,8 +24,8 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-          <button className="border border-[#10CC9F] px-4 py-2 rounded hover:bg-[#10CC9F]">
-            Button
+          <button className="border bg-[#10CC9F] px-4 py-2 rounded hover:bg-[#10CC9F]">
+            Download CV
           </button>
         </div>
         <div className="md:hidden">
@@ -62,10 +62,7 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-          <button
-            type="submit"
-            className="border border-[#10CC9F] px-4 py-2 rounded text-white bg-[#10CC9F] hover:bg-[#0B8F71] transition-colors"
-          >Download CV</button>
+         
         </div>
       )}
     </nav>

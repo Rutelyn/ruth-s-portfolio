@@ -1,4 +1,4 @@
-const ProjectsCard = ({ image, name, text, buttonLabel, onButtonClick }) => {
+const ProjectsCard = ({ image, name, text, onButtonClick,link }) => {
     return (
         <div>
       <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
@@ -21,7 +21,7 @@ const ProjectsCard = ({ image, name, text, buttonLabel, onButtonClick }) => {
          onClick={onButtonClick}
          className="mt-4 px-4 py-2 bg-teal-500 text-white font-bold rounded-lg hover:bg-teal-600 transition duration-300"
        > View Project
-         {buttonLabel}
+         {link}
        </button>
        </div>
        </div>
