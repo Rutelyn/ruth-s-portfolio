@@ -2,7 +2,7 @@ import { ViewfinderCircleIcon, WrenchIcon, PuzzlePieceIcon, SwatchIcon, Rectangl
 import skills from "../assets/images/skills.png";
 import skill from "../assets/images/skillOne.png";
 import ceo from "../assets/images/ceo.jpg";
-
+import ruth from "../assets/images/ruth.jpeg"
 const Skills = () => {
   const skillsData = [
     { img: ceo, title: "React", icon: <RectangleGroupIcon /> },
@@ -11,7 +11,7 @@ const Skills = () => {
     { img: skill, title: "Tailwind CSS", icon: <ViewfinderCircleIcon /> },
     { img: ceo, title: "Project Management", icon: <PuzzlePieceIcon /> },
     { img: skill, title: "Team Work", icon: <SwatchIcon /> },
-    { img: ceo, title: "Responsibility", icon: <PuzzlePieceIcon /> },
+    { img: ruth, title: "Responsibility", icon: <PuzzlePieceIcon /> },
     { img: skills, title: "Collaboration", icon: <PuzzlePieceIcon /> },
   ];
 
