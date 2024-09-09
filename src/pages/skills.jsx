@@ -24,7 +24,7 @@ const Skills = () => {
         {skillsData.map((skill, index) => (
           <div
             key={index}
-            className="relative group w-40 h-40 rounded-full bg-white flex flex-col items-center justify-center p-4 shadow-md transform transition-transform duration-300 hover:scale-110"
+            className="relative group w-60 h-60 rounded-full bg-white flex flex-col items-center justify-center p-4 shadow-md transform transition-transform duration-300 hover:scale-110"
           >
             <img
               src={skill.img}

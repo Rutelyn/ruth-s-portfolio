@@ -39,9 +39,7 @@ const Footer = () => {
           </div>
           <div className="mt-4 md:mt-0">
               <Link to="/" className="flex flex-col items-center justify-center text-black hover:text-teal-600">
-                <div className="bg-teal-100 p-2 rounded-full hover:bg-teal-300 transition">
-                  <ArrowBigUp className="h-6 w-6" />
-                </div>
+                  <ArrowBigUp className="bg-teal-100 p-2 rounded-full hover:bg-teal-300 transitionh-6 w-6" />
                 <span className="mt-1 text-sm md:text-base">Back to top</span>
               </Link>
             </div>
