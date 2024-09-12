@@ -11,7 +11,7 @@ import { Link } from "react-router-dom"
 const Projects = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4 m-4">
         <Link to="https://jemmacare.netlify.app/">
           <ProjectsCard title="Jemma Care" image={projectsOne} name="Built with React, JavaScript, Tailwind CSS" text="JemmaCare is a mental health support website " />
         </Link> 

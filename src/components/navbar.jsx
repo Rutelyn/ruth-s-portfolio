@@ -24,7 +24,7 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-          <Link to="https://drive.google.com/file/d/137Tcq0SP5bg57LuWdzm6zgoqNwN12gr-/view?usp=sharing">
+          <Link to="https://drive.google.com/file/d/1xMDIy6JUzGrlVb3yqMCj_iDAVQvkhzwc/view?usp=sharing">
           <button className="border bg-[#10CC9F] px-4 py-2 rounded hover:bg-[#10CC9F]">
             Download CV
           </button>
