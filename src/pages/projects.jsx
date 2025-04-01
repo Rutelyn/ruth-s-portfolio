@@ -24,7 +24,7 @@ const Projects = () => {
         <Link to="https://harikafoods.netlify.app/">
           <ProjectsCard image={projectsFive} title="Harika" name="Built with HTML, CSS"text="Harika foods is a food ordering website" />
         </Link> 
-        <Link to="https://spectrumevents.netlify.app/">
+        <Link to="https://scomatah.netlify.app/">
           <ProjectsCard image={projectsFour} title="Spectrum Events" name="Built with React, JavaScript, Tailwind CSS"text="Spectrum events is an event management website" />
         </Link> 
        
