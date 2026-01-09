@@ -1,4 +1,4 @@
-import ruth from "../assets/images/ruth.jpeg";
+import ruth from "../assets/images/ruth.jpg";
 import { Link } from "react-router-dom";
 
 
@@ -11,9 +11,7 @@ const LandingPage = () => {
           <h2 className="text-lg font-semibold text-gray-600 mb-2">FRONT-END WEB DEVELOPER</h2>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Hello, my name is Ruth Afi Agbozo</h1>
           <p className="text-base text-gray-700 mb-6">
-            Creative front-end web developer with a background in sales and project management,
-            specializing in user-centered designs and impactful digital experiences.
-            Passionate about building intuitive, responsive, and engaging web interfaces.
+            Creative front-end web developer specializing in responsive, accessible, and performance-optimized web applications. With a background in sales and project management, I bridge user experience, business strategy, and technology to deliver intuitive interfaces that drive growth and user engagement.
           </p>
           <div className="flex space-x-4">
             <Link

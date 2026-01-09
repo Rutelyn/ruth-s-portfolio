@@ -2,7 +2,7 @@ import { ViewfinderCircleIcon, WrenchIcon, PuzzlePieceIcon, SwatchIcon, Rectangl
 import skills from "../assets/images/skills.png";
 import skill from "../assets/images/skillOne.png";
 import ceo from "../assets/images/ceo.jpg";
-import ruth from "../assets/images/ruth.jpeg"
+import ruth from "../assets/images/ruth.jpg"
 const Skills = () => {
   const skillsData = [
     { img: ceo, title: "React", icon: <RectangleGroupIcon /> },
